@@ -3,6 +3,7 @@
   "version": "0.0.4",
   "description": "A helper to add heatmaps (using heatmap.js) to CesiumJS",
   "main": "CesiumHeatmap.js",
+  "types": "CesiumHeatmap.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -22,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/danwild/CesiumHeatmap/issues"
   },
-  "homepage": "https://github.com/danwild/CesiumHeatmap#readme"
+  "homepage": "https://github.com/danwild/CesiumHeatmap#readme",
+  "dependencies": {
+    "heatmapjs": "^2.0.2"
+  }
 }
