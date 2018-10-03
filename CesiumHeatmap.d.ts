@@ -17,7 +17,7 @@ export namespace CesiumHeatmap {
 		x: number, y: number, value: number
 	}
 	interface Instance {
-		setWGS84Data<T>(min: number, max: number, data: DataPoint[]): T?
+		setWGS84Data<T>(min: number, max: number, data: DataPoint[]): T|undefined
 	}
   function create(bb: Bounds, options: Options): Instance
 }
